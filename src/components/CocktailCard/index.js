@@ -31,10 +31,14 @@ function CocktailTab({ data }) {
             image={data["strDrinkThumb"]}
             title="Contemplative Reptile"
           />
+
           <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
+            <Typography gutterBottom variant="h4" component="h2">
               {data["strDrink"]}
             </Typography>
+            <span style={{ fontStyle: "italic", fontSize: "1rem" }}>
+              {data["strAlcoholic"]}
+            </span>
 
             <Typography variant="body2" color="textSecondary" component="p">
               {data["strInstructions"]}
