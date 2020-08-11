@@ -1,0 +1,35 @@
+li {
+  list-style-type: none;
+}
+
+.description {
+  background-color: #cdbcad;
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+}
+
+ul {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 70vw;
+  padding: 3vw;
+  max-width: 1000px;
+  background-image: linear-gradient(
+    to right,
+    #51caaa,
+    #5ca681,
+    #5b8461,
+    #516348,
+    #404535
+  );
+}

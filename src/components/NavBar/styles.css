@@ -1,0 +1,18 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: red;
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  margin-left: 15px;
+
+  padding: 2px;
+}
