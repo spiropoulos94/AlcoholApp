@@ -22,17 +22,19 @@ function RandomCocktail() {
 
   return (
     <div>
-      <h2 style={{ color: "white" }}>Get a Random Cocktail</h2>
+      <h2>Get a Random Cocktail</h2>
       {status === "success" && <CocktailTab data={data} />}
-      <Button
-        color="primary"
-        variant="contained"
-        onClick={() => {
-          setQueryId(`${Math.random()}`);
-        }}
-      >
-        Show me another one
-      </Button>
+      <div style={{ marginTop: "10px" }}>
+        <Button
+          color="primary"
+          variant="contained"
+          onClick={() => {
+            setQueryId(`${Math.random()}`);
+          }}
+        >
+          Show me another one
+        </Button>
+      </div>
     </div>
   );
 }
