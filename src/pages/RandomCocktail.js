@@ -18,7 +18,7 @@ function RandomCocktail() {
     refetchOnMount: false,
   });
 
-  console.log("cocktailData", data, status);
+  // console.log("cocktailData", data, status);
 
   return (
     <div>

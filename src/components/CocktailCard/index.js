@@ -12,7 +12,7 @@ import { Container } from "@material-ui/core";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: "50vw",
+    maxWidth: "100vw",
   },
   media: {
     height: "40vh",
@@ -21,6 +21,7 @@ const useStyles = makeStyles({
 
 function CocktailTab({ data }) {
   const classes = useStyles();
+  console.log(data);
 
   return (
     <Container style={{ display: "flex", justifyContent: "center" }}>
@@ -43,6 +44,17 @@ function CocktailTab({ data }) {
             <Typography variant="body2" color="textSecondary" component="p">
               {data["strInstructions"]}
             </Typography>
+            <Typography gutterBottom variant="h6" component="h2">
+              Ingredients
+            </Typography>
+            {/* <Typography gutterBottom variant="ul" component="li"> */}
+            {/* <ol> */}
+            {/* <li>1 sasdasdasda</li> */}
+            {/* <li>2 dsadasd </li> */}
+            {/* <li>3d as dsad sad asd </li> */}
+            {/* <li>4asd sad sad sa</li> */}
+            {/* </ol> */}
+            {/* </Typography> */}
           </CardContent>
         </CardActionArea>
       </Card>
