@@ -23,6 +23,7 @@ function RandomCocktail() {
   return (
     <div>
       <h2>Get a Random Cocktail</h2>
+      {/* Tsekare thn etoimh karta gia syntages https://material-ui.com/components/cards/#card */}
       {status === "success" && <CocktailTab data={data} />}
       <div style={{ marginTop: "10px" }}>
         <Button
