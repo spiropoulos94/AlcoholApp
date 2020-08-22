@@ -2,8 +2,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: red;
+  background-color: #3f51b5;
+  color: white;
   padding: 15px;
+}
+
+#header a {
+  color: white;
+  font-weight: bold;
 }
 
 nav {
@@ -13,6 +19,5 @@ nav {
 
 nav li {
   margin-left: 15px;
-
   padding: 2px;
 }

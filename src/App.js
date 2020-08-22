@@ -24,7 +24,7 @@ function App() {
           </Route>
           <Route path="/ingredients">
             <div>
-              <h1>Search by Ingredients</h1>
+              <h2>Search by Ingredients</h2>
             </div>
           </Route>
           <Route path="/">
