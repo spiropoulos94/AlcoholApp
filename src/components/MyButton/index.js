@@ -20,8 +20,8 @@ function ClassNames(props) {
 
   return (
     <Button
-      variant="contained"
-      color="primary"
+      //   variant="contained"
+      //   color="primary"
       className={clsx(classes.root, className)}
       {...other}
     >
