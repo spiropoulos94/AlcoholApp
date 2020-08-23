@@ -15,10 +15,10 @@ function App() {
       <div className={style.mainScreen}>
         <Switch>
           <Route path="/random">
-            <h2>Random COcktail</h2>
+            <h2>Random Cocktail</h2>
           </Route>
           <Route path="/name">
-            <h2>ENter Name</h2>
+            <h2>Enter Name</h2>
           </Route>
           <Route path="/ingredients">
             <h2>Enter Ingredients</h2>
