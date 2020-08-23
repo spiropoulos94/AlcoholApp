@@ -1,30 +1,26 @@
 import React from "react";
-import "./styles.css";
-import { Link } from "react-router-dom";
+import style from "./styles.module.css";
+import { NavLink } from "react-router-dom";
+import { Button } from "@material-ui/core";
 
 function NavBar(props) {
   return (
-    <div id="header">
-      <Link to="/" style={{ textDecoration: "none" }}>
-        <header>Cocktail Generator App</header>
-      </Link>
-      <nav>
-        <Link to="/random" style={{ textDecoration: "none" }}>
-          <li>
-            Show a <span>Random Cocktail</span>
-          </li>
-        </Link>
-        <Link to="/name" style={{ textDecoration: "none" }}>
-          <li>
-            Search by <span>Name</span>
-          </li>
-        </Link>
-        <Link to="/ingredients" style={{ textDecoration: "none" }}>
-          <li>
-            Search by <span>Ingredients</span>
-          </li>
-        </Link>
-      </nav>
+    <div className={style.nikos}>
+      <NavLink className={style.link} to="/random">
+        <Button variant="contained" color="primary">
+          Random Cocktail
+        </Button>
+      </NavLink>
+      <NavLink className={style.link} to="/name">
+        <Button variant="contained" color="primary">
+          Search by Name
+        </Button>
+      </NavLink>
+      <NavLink className={style.link} to="/ingredients">
+        <Button variant="contained" color="primary">
+          Search by ingredients
+        </Button>
+      </NavLink>
     </div>
   );
 }
