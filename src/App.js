@@ -10,9 +10,10 @@ function App() {
       <div className="App-header">
         <h1>Find a nice cocktail!</h1>
       </div>
-      <Navbar />
 
       <div className={style.mainScreen}>
+        <h2>Choose your search method</h2>
+        <Navbar />
         <Switch>
           <Route path="/random">
             <h2>Random Cocktail</h2>

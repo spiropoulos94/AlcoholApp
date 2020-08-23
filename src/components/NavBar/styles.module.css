@@ -16,7 +16,6 @@
 }
 
 .mainScreen {
-  display: flex;
-  justify-content: center;
-  height: 90vh;
+  height: 100vh;
+  text-align: center;
 }
