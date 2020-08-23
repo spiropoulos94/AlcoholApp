@@ -7,10 +7,11 @@ import style from "./components/NavBar/styles.module.css";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="App-header">
         <h1>Find a nice cocktail!</h1>
-        <Navbar />
       </div>
+      <Navbar />
+
       <div className={style.mainScreen}>
         <Switch>
           <Route path="/random">

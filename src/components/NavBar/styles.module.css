@@ -18,4 +18,5 @@
 .mainScreen {
   display: flex;
   justify-content: center;
+  height: 90vh;
 }
