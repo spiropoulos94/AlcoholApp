@@ -7,14 +7,23 @@ function App() {
   return (
     <Router>
       <div>
-        <h1>Welcome to your app</h1>
+        <h1>Find a nice cocktail!</h1>
         <Navbar />
       </div>
-      <Switch>
-        <Route path="/random">Random COcktail</Route>
-        <Route path="/name">ENter Name</Route>
-        <Route path="/ingredients">Enter Ingredients</Route>
-      </Switch>
+      <div
+        style={{
+          display: "flex",
+          textAlign: "center",
+          backgroundColor: "red",
+          justifyContent: "center",
+        }}
+      >
+        <Switch>
+          <Route path="/random">Random COcktail</Route>
+          <Route path="/name">ENter Name</Route>
+          <Route path="/ingredients">Enter Ingredients</Route>
+        </Switch>
+      </div>
     </Router>
   );
 }
