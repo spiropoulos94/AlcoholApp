@@ -11,9 +11,9 @@ function App() {
   return (
     <Router>
       <div>
-        <Container fluid maxWidth="">
+        <div class="App-header">
           <h1>Find a nice cocktail!</h1>
-        </Container>
+        </div>
 
         <div className={style.mainScreen}>
           <h2>Choose your search method</h2>
