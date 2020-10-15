@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.scss";
-import Navbar from "./components/NavBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import style from "./components/NavBar/styles.module.css";
 import { Button, Container } from "@material-ui/core";
 import { ReactQueryDevtools } from "react-query-devtools";
 //import { useQuery } from "react-query";
