@@ -19,6 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="1ca8adb8-43ff-4925-87d6-482d9c62ce98" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/components/welcomescreen/welcome-screen.component.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/welcomescreen/welcome-screen.styles.scss" afterDir="false" />
@@ -29,6 +30,9 @@
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
+=======
+    <list default="true" id="1ca8adb8-43ff-4925-87d6-482d9c62ce98" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,9 +106,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="565" y="244" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602769909691" />
-    <state x="684" y="46" key="RollbackChangesDialog" timestamp="1602767873864">
+    <state x="684" y="46" key="RollbackChangesDialog" timestamp="1602772284744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="684" y="46" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602767873864" />
+    <state x="684" y="46" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602772284744" />
   </component>
 </project>
