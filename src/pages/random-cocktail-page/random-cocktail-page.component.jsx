@@ -21,7 +21,7 @@ const RandomCocktailPage = () => {
 
     return (
         <div className="random-cocktail-page">
-            <h2 onClick={fetchCocktailData}>Get Random Cocktail</h2>
+            <h2 className="page-title" onClick={fetchCocktailData}>Get Random Cocktail</h2>
             {cocktailData ?  <CocktailCard data={cocktailData} /> : <img  src="https://media.giphy.com/media/l3fQaE2lbSAPUnB04/source.gif" /> }
         </div>
     );

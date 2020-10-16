@@ -1,12 +1,17 @@
 .random-cocktail-page {
   text-align: center;
-  font-size: 3rem;
-  h2 {
+
+  .page-title {
+    margin: 2%;
     color:white;
     cursor: pointer;
+    font-size: calc(5vw + 1rem);
+    &:hover {
+      color:#006b2d ;
+    }
   }
 
   img {
-    width: 200px;
+    max-width: 400px
   }
 }

@@ -3,13 +3,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: absolute;
+  top: 30%;
+
 
   .welcome-text {
     font-size:calc(6vw + 1rem);
     color: white;
-    //position: absolute;
-    top: 30%;
-
+  }
+  button {
+    position: relative;
   }
 }
 

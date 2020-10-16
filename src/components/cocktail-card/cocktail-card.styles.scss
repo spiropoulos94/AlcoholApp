@@ -1,44 +1,88 @@
 .cocktail-card {
   color : white;
-  border : 10px groove #006b2d;
   padding: 20px;
   text-align: center;
-  display: flex;
+  //width: 1150px;
+  //height: 550px;
+  width: 90%;
+  margin: auto;
 
-  img {
-    //height: 400px;
-    //width: 400px;
-  }
-  figure {
-    margin: 0;
-  }
+
+
   figcaption {
     font-size: 2rem;
   }
 }
 
 .card-image {
-  flex:1
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  img {
+    width: 150px;
+  }
 }
 
 .card-info {
   flex: 1;
   background: #0b9344;
   padding: 10px;
+  border-radius: 10px;
 
 
   .card-info-title {
     font-size: 1.5rem;
     background: inherit;
   }
-  .card-info-category {
+  .card-info-category, .mixing-content {
     font-size: 1rem;
     background: inherit;
   }
 
-  .ingredients {
+  .ingredients-title, .mixing-title {
+    margin-bottom:30px ;
     font-size: 1.6rem;
     background: inherit;
-    text-decoration: underline;
+    //text-decoration: underline;
+  }
+
+}
+
+
+.ingredients {
+  background: inherit;
+  font-size: 1.1rem;
+  p {
+    background: inherit;
+  }
+
+  .input-group {
+    display: flex;
+    background: inherit;
+    margin:15px 20px;
+    label {
+      //margin-left: 20px;
+      background: inherit;
+      cursor: pointer;
+    }
+  }
+}
+
+
+@media(min-width: 700px){
+  .cocktail-card {
+    display: flex;
+    border: 10px groove #006b2d;
+    img {
+      width: 350px;
+    }
+  }
+
+  .input-group {
+    label {
+      margin-left: 20px;
+    }
   }
 }

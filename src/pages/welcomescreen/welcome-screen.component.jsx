@@ -1,6 +1,5 @@
 import React from 'react';
 import './welcome-screen.styles.scss';
-import StyledButton from "../../components/styled-button/styled-button.component";
 import Button from "../../components/button/button.component";
 
 
