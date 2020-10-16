@@ -1,14 +1,11 @@
+ * {
+   background: black;
+ }
+
 .App {
-  background: black;
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  //text-align: center;
-
-  .welcome-text {
-    font-size:calc(6vw + 1rem);
-    color: white;
-  }
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.scss";
-import {BrowserRouter as Router} from "react-router-dom";
-import {ReactQueryDevtools} from "react-query-devtools";
-import {Button} from "@material-ui/core";
-import WelcomeScreen from "./components/welcomescreen/welcome-screen.component";
 //import { useQuery } from "react-query";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {ReactQueryDevtools} from "react-query-devtools";
+import WelcomeScreen from "./pages/welcomescreen/welcome-screen.component";
+import SelectionScreen from "./pages/selection-screen/selection-screen.component";
 
 //https://icons8.com/illustrations/cocktail
 //https://dev.to/theme_selection/best-design-resources-websites-every-developer-should-bookmark-1p5d
@@ -15,7 +15,10 @@ function App() {
     return (
         <Router>
             <div className="App">
-                <WelcomeScreen/>
+                <Switch>
+                    <Route exact path="/" component={WelcomeScreen}/>
+                    <Route exact path="/select" component = {SelectionScreen}/>
+                </Switch>
                 <ReactQueryDevtools initialIsOpen/>
             </div>
         </Router>

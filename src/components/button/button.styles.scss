@@ -1,0 +1,28 @@
+.button {
+  background: #006b2d;
+  padding:8px 22px;
+  border: 0;
+  border-radius: 5%;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: inherit;
+  line-height: 1.75;
+  font-size: 1.5rem;
+  top: 60%;
+  cursor: pointer;
+
+  &:hover {
+    background: white;
+    color: #062726;
+  }
+
+
+  &.entry-button {
+    position: absolute;
+    &:hover {
+      padding: 8px 50px;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.grid-item {
+  text-align: center;
+  background: #006b2d;
+  padding: 20px;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10%;
+  cursor: pointer;
+
+  &:hover {
+    background: #005c26;
+  }
+
+  img {
+    margin:10px 0 0 0  ;
+  }
+
+  .grid-item-title {
+    background: inherit;
+  }
+
+}
