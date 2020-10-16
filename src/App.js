@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.scss";
-//import { useQuery } from "react-query";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import {ReactQueryDevtools} from "react-query-devtools";
 import WelcomeScreen from "./pages/welcomescreen/welcome-screen.component";
 import SelectionScreen from "./pages/selection-screen/selection-screen.component";
 import RandomCocktailPage from "./pages/random-cocktail-page/random-cocktail-page.component";
@@ -22,7 +20,6 @@ function App() {
                     <Route exact path="/select/random" component = {RandomCocktailPage}/>
 
                 </Switch>
-                <ReactQueryDevtools initialIsOpen/>
             </div>
         </Router>
     );
