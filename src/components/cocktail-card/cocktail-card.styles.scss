@@ -1,0 +1,44 @@
+.cocktail-card {
+  color : white;
+  border : 10px groove #006b2d;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+
+  img {
+    //height: 400px;
+    //width: 400px;
+  }
+  figure {
+    margin: 0;
+  }
+  figcaption {
+    font-size: 2rem;
+  }
+}
+
+.card-image {
+  flex:1
+}
+
+.card-info {
+  flex: 1;
+  background: #0b9344;
+  padding: 10px;
+
+
+  .card-info-title {
+    font-size: 1.5rem;
+    background: inherit;
+  }
+  .card-info-category {
+    font-size: 1rem;
+    background: inherit;
+  }
+
+  .ingredients {
+    font-size: 1.6rem;
+    background: inherit;
+    text-decoration: underline;
+  }
+}
