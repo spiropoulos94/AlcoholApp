@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import WelcomeScreen from "./pages/welcomescreen/welcome-screen.component";
 import SelectionScreen from "./pages/selection-screen/selection-screen.component";
 import RandomCocktailPage from "./pages/random-cocktail-page/random-cocktail-page.component";
+import SearchByNamePage from "./pages/search-by-name-page/search-by-name-page.component";
 
 //https://icons8.com/illustrations/cocktail
 //https://dev.to/theme_selection/best-design-resources-websites-every-developer-should-bookmark-1p5d
@@ -18,6 +19,7 @@ function App() {
                     <Route exact path="/" component={WelcomeScreen}/>
                     <Route exact path="/select" component = {SelectionScreen}/>
                     <Route exact path="/select/random" component = {RandomCocktailPage}/>
+                    <Route exact path="/select/name" component = {SearchByNamePage}/>
 
                 </Switch>
             </div>
