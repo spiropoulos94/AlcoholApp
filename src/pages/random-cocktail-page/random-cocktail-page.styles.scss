@@ -1,18 +1,19 @@
 .random-cocktail-page {
+  //margin-top:20% ;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .page-title {
     margin: 2%;
     color:white;
-    cursor: pointer;
     font-size: calc(5vw + 1rem);
-    &:hover {
-      color:#006b2d ;
-    }
   }
 
-  img {
-    max-width: 400px
+  .random-page-gif-image {
+    max-width: 400px;
+    margin: 20px;
   }
 }
 
@@ -20,8 +21,8 @@
   background: red;
   padding: 10px;
   text-decoration: none;
-  position: absolute;
   bottom:10%;
-  z-index: 999999999999999999999999999999;
   color: white;
 }
+
+

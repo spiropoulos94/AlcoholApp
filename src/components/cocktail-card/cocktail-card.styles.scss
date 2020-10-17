@@ -5,7 +5,6 @@
   //width: 1150px;
   //height: 550px;
   width: 90%;
-  margin: auto;
 
 
 
@@ -75,6 +74,7 @@
   .cocktail-card {
     display: flex;
     border: 10px groove #006b2d;
+    margin: 50px auto;
     img {
       width: 350px;
     }
