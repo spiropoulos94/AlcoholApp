@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import Button from "../../components/button/button.component";
 import Navigation from "../../components/navigation/navigation.component";
 import "./search-by-name-page.styles.scss";
+import Input from "../../components/input/input.component";
 
 const SearchByNamePage = () => {
 
@@ -22,22 +23,13 @@ const SearchByNamePage = () => {
             })
     }
 
-    function InputComponent(){
-        return (
-            <form className="input-component">
-                <label htmlFor="cocktailSearch"/>
-                <input type="text" id="cocktailSearch" name="cocktailSearch" defaultValue="" />
-                <Button type="submit">Search</Button>
-            </form>
-        )
-    }
+
 
     return (
         <div className="random-cocktail-page">
             <Navigation/>
             <h2 className="page-title" >Search By Name</h2>
-            <InputComponent/>
-
+            <Input/>
         </div>
     );
 };
