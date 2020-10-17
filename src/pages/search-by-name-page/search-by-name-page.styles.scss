@@ -4,9 +4,21 @@
   align-items: center;
   text-align: center;
   width: 400px;
+
   input {
-    height: 50px;
-    width: 70%;
+    height: 58px;
+    //width: 70%;
     color: white;
+    background: white;
+    padding: 8px 22px;
+    border: 0;
+    border-radius: 5%;
+    color: #006b2d;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: inherit;
+    line-height: 1.75;
+    font-size: 1.5rem;
+    cursor: pointer;
   }
 }
