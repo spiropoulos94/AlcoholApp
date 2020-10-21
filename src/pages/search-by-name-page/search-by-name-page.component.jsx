@@ -23,13 +23,17 @@ const SearchByNamePage = () => {
             })
     }
 
+    function handleChange(e) {
+        console.log(e.target.value)
+    }
+
 
 
     return (
         <div className="random-cocktail-page">
             <Navigation/>
             <h2 className="page-title" >Search By Name</h2>
-            <Input/>
+            <Input onChange={handleChange} name={"nikos"}/>
         </div>
     );
 };

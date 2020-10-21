@@ -1,20 +1,17 @@
 import React,{useState} from 'react';
 import "./input.styles.scss";
 
-const Input = () => {
+const Input = (props) => {
 
     const [inputValue, setInputValue] = useState("")
 
-    function handleClick(e){
-        e.preventDefault();
-        console.log(inputValue)
-    }
+
 
     return (
         <div  className="input-component">
             <label htmlFor="cocktailSearch"/>
-            <input onChange={(e)=>setInputValue(e.target.value)} type="text" id="cocktailSearch" name="cocktailSearch" defaultValue={inputValue} />
-            <button onClick={(event)=>handleClick} className="input-button" >Search</button>
+            <input  onChange={props.handleChange} type="text" id="cocktailSearch" name="cocktailSearch" defaultValue={inputValue} />
+            <button  {...props} className="input-button" >Search</button>
         </div>
     );
 };
